@@ -10,10 +10,11 @@ echo #
 echo #___________________________________
 echo .
 
-
-
+:: set variable
 set /p UserDir="New Folder Name ":
-MD %UserDir%
+
+:: make direktory
+MD %UserDir% 
 cd %UserDir%
 
 :: clear screen
