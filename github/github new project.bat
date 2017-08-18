@@ -5,14 +5,14 @@ echo #_____________1. New git project________
 echo #
 echo #    Create a new folder
 echo #
-echo #    DirName     - Windows Folder Name
+echo #    New Folder Name     - Windows Folder Name
 echo #
 echo #___________________________________
 echo .
 
 
 
-set /p UserDir=DirName:
+set /p UserDir="New Folder Name ":
 MD %UserDir%
 cd %UserDir%
 
@@ -30,7 +30,7 @@ echo #    https://github.com/new
 echo #
 echo #___________________________________
 echo .
-echo Note: Install Desktop App from https://desktop.github.com/
+echo Note: Must Install Desktop App from https://desktop.github.com/
 echo .
 
 pause
