@@ -52,7 +52,7 @@ echo #
 echo #___________________________________
 echo .
 
-set /p githubLink="Insert Gihub link here: ":
+set /p githubLink="Insert Github link here: ":
 
 echo "# readme" >> README.md
 git init
